@@ -1,0 +1,161 @@
+:root {
+  --main-font-family: Montserrat;
+  --main-font-size: 14px;
+  --main-primary-blue-color: #2196f3;
+  --main-secondary-blue-color: #007bff;
+  --main-gray-color: #ddd;
+}
+.root
+{
+  flex-grow: 1,
+}
+a {
+  text-decoration: none !important;
+}
+.title{
+  flex-grow:  1,
+}
+.menuButton{
+  margin-right: 20px;
+}
+.logoutButton{
+  margin-left:1713px;
+}
+.noUnderline{
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  /* background-color: #4c69ba; */
+  background-color: rgb(35,88,154);
+  height: 80px;
+}
+/* .menuappbar
+{
+  z-index: 2000;
+} */
+.headerButtonsContainer{
+  display:flex;
+  margin-left:1745px;
+}
+
+.headerButtons1{
+  padding: 7px;
+}
+.btnn{
+  width:69.969px;
+  height: 268.844px;
+}
+
+.posttitle {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+body {
+  /* background-color: #4c69ba; */
+  background-image: url("https://imgur.com/4aXVf0U.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-color: #ebecf1;
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* height: 100vh; */
+}
+
+.loginButton {
+  float: right;
+  margin-right: 10px;
+  margin: 6px;
+}
+.headerItems {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  float: right;
+  padding: 24px;
+  color: white;
+  font-size: 17.5px;
+  height: 54px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1cm;
+}
+.avatarpic
+{
+  width:20px;
+  height:20px
+}
+.submitButton {
+  background-color: #4c69ba;
+  color: white;
+  float: right;
+}
+.poststable {
+  width: 95%;
+    float: left;
+    margin: 13px 0 50px 42px;
+    padding: 3%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+}
+
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.meetTimekeeper {
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  padding-top: 14%;
+  color: lightgrey;
+  margin: 0 auto;
+}
+.meetTimekeeper h1 {
+  font-family: var(--main-font-family);
+  margin-top: -226px;
+}
+.meetTimekeeper h2 {
+  font-family: var(--main-font-family);
+  margin-top: 20px;
+}
+.meetTimekeeper h5 {
+  /* text-decoration: none; */
+  font-family: var(--main-font-family);
+  color: #a3b2db;
+  position: relative;
+  top: 352px;
+}
+.footer {
+  font-family: var(--main-font-family);
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+  /*  background-color: rgba(0, 0, 0, 0.2); */
+  width: 100%;
+  height: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #4c69ba;
+  color: white;
+  float: right;
+}
