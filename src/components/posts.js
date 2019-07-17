@@ -10,7 +10,8 @@ import Paper from "@material-ui/core/Paper";
 import SimpleModal from "./posteditmodal";
 import config from "../../config";
 import { Avatar, Button } from "@material-ui/core";
-
+import Typography from '@material-ui/core/Typography';
+import '../assets/styles/stylee.css'
 const CustomTableCell = withStyles(theme => ({
   head: {
     color: theme.palette.common.white
@@ -28,7 +29,8 @@ const styles = theme => ({
   },
   row: {
     "&:hover": {
-      backgroundColor: theme.palette.background.default,
+      // backgroundColor: theme.palette.background.default,
+      backgroundColor: 'lightgrey',
       cursor: "pointer"
     }
   }
@@ -98,11 +100,11 @@ class CustomizedTable extends Component {
           <Paper className={classes.root}>
             <Table className={classes.table}>
               <TableHead className="custom-table-head">
-                <TableRow>
-                  <CustomTableCell>Person</CustomTableCell>
-                  <CustomTableCell>Name</CustomTableCell>
-                  <CustomTableCell align="left">Date posted</CustomTableCell>
-                  <CustomTableCell align="left">Post content</CustomTableCell>
+                <TableRow >
+                  <CustomTableCell><Typography className="texts" >Person</Typography></CustomTableCell>
+                  <CustomTableCell ><Typography className="texts">Name</Typography></CustomTableCell>
+                  <CustomTableCell align="left"><Typography className="texts">Date posted</Typography></CustomTableCell>
+                  <CustomTableCell align="left"><Typography className="texts">Post content</Typography></CustomTableCell>
                 </TableRow>
               </TableHead>
 
