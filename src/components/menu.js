@@ -45,6 +45,7 @@ class Menu extends Component {
     // config.token = "asd" //ASD
     let fbContent;
     if (this.state.isLoggedIn) {
+
       console.log(this.state.isLoggedIn);
       fbContent = (
 

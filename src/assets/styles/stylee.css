@@ -72,9 +72,15 @@ body {
 }
 
 .loginButton {
-  float: right;
+  /* float: right;
   margin-right: 10px;
-  margin: 6px;
+  margin: 6px; */
+  position: absolute;
+  /* margin-left: 500px; */
+  margin-right: 500px;
+  z-index: 2000px;
+  left: 825px;
+  top: 572px;
 }
 .headerItems {
   font-family: Arial, Helvetica, sans-serif;

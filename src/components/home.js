@@ -14,7 +14,7 @@ class Home extends Component {
             <h2>Ever wondered what information you shared on facebook?</h2>
             <div>
               <div>
-                <h5>Log in to proceed</h5>
+                {/* <h5>Log in to proceed</h5> */}
               </div>
             </div>
           </div>

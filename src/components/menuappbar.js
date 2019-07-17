@@ -17,20 +17,8 @@ import { Redirect } from 'react-router-dom'
 import { Avatar, Button } from "@material-ui/core";
 import Tooltip from '@material-ui/core/Tooltip';
 import config from '../../config'
-// const useStyles = makeStyles(theme => ({
-//     root: {
-
-//     },
-//     menuButton: {
-//         marginRight: theme.spacing(2),
-//     },
-//     title: {
-//         flexGrow: 1,
-//     },
-// }));
 
 export default function MenuAppBar() {
-    // const classes = useStyles();
     const [auth, setAuth] = React.useState(true);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -54,6 +42,7 @@ export default function MenuAppBar() {
     }
 
     return (
+
         <div className='root' >
             <AppBar position="static">
                 <Toolbar>
